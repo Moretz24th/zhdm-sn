@@ -1,0 +1,102 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: linear-gradient(180deg, #26425B 0%, rgba(50, 39, 122, 0.00) 100%);
+    width:100%;
+    height:1000px;
+    background-repeat:no-repeat;
+
+}
+
+main{
+    width: 1000px;
+    height: 757px;
+    background-color: white;
+    margin-inline:auto;
+    margin-top: 161px;
+    background: linear-gradient(180deg, #26425B 0%, rgba(38, 66, 91, 0.06) 100%);
+    border-radius: 120px 120px 30px 30px;
+    padding-top: 49px;
+
+}
+
+
+.main-wrapper{
+    margin-inline: 73px;
+}
+
+.my-photo{
+    width: 273px;
+    border-radius: 50%;
+}
+
+.my-info{
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.my-info-text{
+    display: flex;
+    align-items:center;
+    color:#c2f1ee;
+    font-size: 27px;
+    margin-left: 100px;  
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.my-info-text img{
+    width: 200px;
+
+}
+
+hr{
+    background-color: #daa7f9;
+    border:none;
+    height: 1px;
+    color:#daa7f9;
+    
+}
+
+.UZGA{
+    width: 330px;
+    height: 330px;
+    background-color:white;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.UZGA img{
+    width: 85%;
+    
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sn-vk,
+.sn-tg,
+.sn-gmail{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sn-vk p,
+.sn-tg p,
+.sn-gmail p{
+    margin-left: 19px;
+}
